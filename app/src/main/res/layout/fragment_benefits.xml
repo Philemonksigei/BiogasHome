@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".safety_frag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_benefits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_sides"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ben_h1_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/benefits_of_biogas"
+                android:textColor="#1BE424"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ben_h1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/biogas_is_eco_friendly"
+                android:textColor="#CD2A2A" />
+
+            <TextView
+                android:id="@+id/ben_body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ben_b1"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ben_h2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reduces_soil_and_water_pollution"
+                android:textColor="#CD2020" />
+
+            <TextView
+                android:id="@+id/ben_b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ben_b2"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ben_h3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/organic_fertilizer"
+                android:textColor="#BF3535" />
+
+            <TextView
+                android:id="@+id/ben_b3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ben_b3"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ben_h4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/it_s_a_simple_and_low_cost_technology"
+                android:textColor="#C82B2B" />
+
+            <TextView
+                android:id="@+id/ben_b4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ben_b4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ben_h5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/healthy_cooking_alternative"
+                android:textColor="#E83434" />
+
+            <TextView
+                android:id="@+id/ben_b5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ben_b5"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

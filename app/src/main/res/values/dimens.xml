@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_sides">10dp</dimen>
+    <dimen name="button_heights_main">72dp</dimen>
+    <dimen name="margin_buttons">3dp</dimen>
+</resources>

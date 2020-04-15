@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_welcome_foreground"
+    tools:context=".welcomeActivity">
+
+    <TextView
+        android:id="@+id/biogasHometxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="BiogasHome"
+        android:textColor="#10DA18"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/slogantxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="casual"
+        android:text="--Natural--Cheap--Safe--"
+        android:textColor="#06EF10"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@+id/biogasHometxt"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="@+id/biogasHometxt"
+        app:layout_constraintTop_toBottomOf="@+id/biogasHometxt" />
+
+    <TextView
+        android:id="@+id/disclaimertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"
+        android:text="This app acts a reference ONLY\nNo liability is implied or expressed."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_open_main"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button_open_main"
+        android:layout_width="84dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="228dp"
+        android:background="@drawable/ic_ellipse1"
+        android:text="Open"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slogantxt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

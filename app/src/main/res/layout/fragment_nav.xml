@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_sides"
+        android:background="@mipmap/bg_welcome_foreground"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_whatis_bio"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_heights_main"
+            android:layout_margin="@dimen/margin_buttons"
+            android:background="@drawable/bg_button"
+            android:text="What is Biogas?"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_required_mat"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_heights_main"
+            android:layout_margin="@dimen/margin_buttons"
+            android:background="@drawable/bg_button"
+            android:text="Required Materials"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_benefits"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_heights_main"
+            android:layout_margin="@dimen/margin_buttons"
+            android:background="@drawable/bg_button"
+            android:text="Benefits of Biogas"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_howto_setup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_heights_main"
+            android:layout_margin="@dimen/margin_buttons"
+            android:background="@drawable/bg_button"
+            android:text="How to Set Up"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_pictorial_steps"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_heights_main"
+            android:layout_margin="@dimen/margin_buttons"
+            android:background="@drawable/bg_button"
+            android:text="Pictorial Steps"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_safety"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_heights_main"
+            android:layout_margin="@dimen/margin_buttons"
+            android:background="@drawable/bg_button"
+            android:text="Safety Precautions"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/about_us"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_heights_main"
+            android:layout_margin="@dimen/margin_buttons"
+            android:background="@drawable/bg_button_abt_us"
+            android:text="About Us"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
